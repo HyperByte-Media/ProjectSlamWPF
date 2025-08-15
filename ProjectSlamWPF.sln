@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSlam.App", "ProjectSlam.App\ProjectSlam.App.csproj", "{46DB0CD1-90AC-4D91-9CD5-5E85785A82D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSlam.Data", "ProjectSlam.Data\ProjectSlam.Data.csproj", "{67948E2C-9551-43B5-BF56-E38F34BA0FB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46DB0CD1-90AC-4D91-9CD5-5E85785A82D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DB0CD1-90AC-4D91-9CD5-5E85785A82D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DB0CD1-90AC-4D91-9CD5-5E85785A82D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DB0CD1-90AC-4D91-9CD5-5E85785A82D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67948E2C-9551-43B5-BF56-E38F34BA0FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67948E2C-9551-43B5-BF56-E38F34BA0FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67948E2C-9551-43B5-BF56-E38F34BA0FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67948E2C-9551-43B5-BF56-E38F34BA0FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {582CB581-0C01-405E-BD5B-4826509FC65C}
+	EndGlobalSection
+EndGlobal

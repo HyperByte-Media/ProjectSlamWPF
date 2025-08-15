@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<StartupObject>ProjectSlam.App.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Fonts\" />
+    <Folder Include="Assets\Images\" />
+    <Folder Include="Assets\Audio\" />
+    <Folder Include="Assets\Video\" />
+    <Folder Include="Features\Exhibition\SubViews\" />
+    <Folder Include="Features\GeneralManager\SubViews\" />
+    <Folder Include="Features\Multiverse\SubViews\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0-preview.7.25380.108" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0-preview.7.25380.108" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.0-preview.7.25380.108" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectSlam.Data\ProjectSlam.Data.csproj" />
+  </ItemGroup>
+
+</Project>
